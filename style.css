@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 5vh;
+   width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    padding-left: 30px;
+}
+.menu-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    gap: 30px;
+}
+
+
+.hero{
+height: 80vh;
+width: 100%;
+background-color: darkcyan;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.hero_left{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+gap: 20px;
+}
+.hero_left p{
+  width: 300px;  
+}
+.hero_right{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero_right img{
+height: 400px;
+width: 400px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgb(235, 230, 230);
+object-fit: cover;
+object-position: center;
+}
+
+.footer{
+    height: 15vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
