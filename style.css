@@ -15,7 +15,7 @@ main{
 nav{
     height: 5vh;
    width: 100%;
-    background-color: red;
+    background-color: rgb(29, 2, 63);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,7 +36,7 @@ nav{
 .hero{
 height: 80vh;
 width: 100%;
-background-color: darkcyan;
+background-color: rgb(35, 19, 77);
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -49,8 +49,12 @@ justify-content: center;
 align-items: left;
 gap: 20px;
 }
+.hero_left h1{
+  font-size: 50px;
+}
 .hero_left p{
-  width: 300px;  
+  width: 400px;
+  font-size: 20px;  
 }
 .hero_right{
 display: flex;
@@ -70,7 +74,7 @@ object-position: center;
 .footer{
     height: 15vh;
     width: 100%;
-    background-color: blue;
+     background-color: rgb(29, 2, 63);
     display: flex;
     justify-content: center;
     align-items: center;
